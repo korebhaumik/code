@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  margin: auto;
+  height: fit-content;
+  border: solid 5px;
+  width: 1000px;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.nav {
+  background-color: #f55a5a;
+  color: rgba(255, 255, 255, 0.906);
+  height: 4.5rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: inter;
+  letter-spacing: 2px;
+  font-size: 0.7rem;
+}
+
+.mc--img {
+  height: 330px;
+  width: 256px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* .mc {
+  padding: 50px 50px;
+} */
+
+.wrapper {
+  margin: 70px;
+  margin-left: 70px;
+  margin-right: 100px;
+  /* margin: 0px; */
+  /* padding: 100px 50px; */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 2em;
+  grid-auto-rows: minmax(50px, auto);
+  /* background-color: yellowgreen; */
+}
+
+.one {
+  /* background-color: blue; */
+  grid-column: 1;
+}
+
+.two {
+  /* background-color: red; */
+  grid-column: 2/5;
+  font-family: inter;
+  display: grid;
+  padding: 30px 0px;
+}
+
+.two--one {
+  /* background-color: yellow; */
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  grid-column-gap: 10px;
+  grid-auto-rows: 20px;
+}
+
+.two--one--h1 {
+  margin: 0;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+.two--one--a {
+  display: block;
+  color: rgba(82, 83, 84, 0.865);
+}
+
+.two--one--a:hover {
+  color: rgb(18, 90, 148);
+}
+
+.two--two > h1 {
+  font-size: 40px;
+  margin-top: 5px;
+}
+
+.two--two > p {
+  font-size: 20px;
+}
+
+hr {
+  width: px;
+  margin-left: 70px;
+  margin-right: 100px;
+  /* position: absolute; */
+  /* left: 00px; */
+  /* margin: 30px auto; */
+}
