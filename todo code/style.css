@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://css.gg/check.css");
+@import url("https://css.gg/close.css");
+.form {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  height: fit-content;
+}
+.form-input {
+  font-family: inter;
+  font-size: 20px;
+}
+.form-add {
+  font-family: inter;
+  font-size: 20px;
+  font-weight: 800;
+  margin-right: 100px;
+  color: rgb(8, 149, 209);
+  border: none;
+  height: 30px;
+  width: 30px;
+  border: solid 2px;
+  border-radius: 2px;
+  border-color: rgb(8, 149, 209);
+}
+.form-add:hover {
+  transition-duration: 200ms;
+  border-color: green;
+  color: green;
+}
+.form-clear {
+  font-family: inter;
+  font-size: 20px;
+  color: rgb(8, 149, 209);
+  font-weight: 800;
+  border-radius: 2px;
+  border-style: solid;
+  border-color: rgb(8, 149, 209);
+  /* margin-right: 100px; */
+}
+.form-clear:hover {
+  transition-duration: 200ms;
+  border-color: rgb(225, 26, 26);
+  color: rgb(225, 26, 26);
+}
+
+.container > p {
+  /* margin-right: auto; */
+  background-color: rgb(159, 214, 236);
+  display: flex;
+  align-items: center;
+  width: 20rem;
+  height: 30px;
+  font-size: 15px;
+  padding-left: 5px;
+  text-align: justify;
+}
+.gg-check {
+  color: rgb(8, 149, 209);
+}
+.gg-check:hover {
+  color: green;
+  transition-duration: 200ms;
+}
+.gg-close {
+  color: rgb(8, 149, 209);
+}
+.gg-close:hover {
+  color: red;
+  transition-duration: 200ms;
+}
+.container {
+  align-items: center;
+  display: flex;
+  align-items: center;
+  height: fit-content;
+  /* background-color: aquamarine; */
+  font-family: inter;
+  margin: 5px 0px;
+  padding: 0px;
+  height: 40px;
+}
+
+.big {
+  padding: 0px 10px;
+  align-self: flex-start;
+}
+
+.btn {
+  height: 30px;
+  margin: 0px;
+  font-size: 20px;
+  border: none;
+}
+.btn :hover {
+  background-color: rgb(214, 217, 218);
+}
+
+.gg-add-r {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  width: 22px;
+  height: 22px;
+  border: 2px solid;
+  transform: scale(var(--ggs, 1));
+  border-radius: 4px;
+}
+/* .gg-add-r::after,
+.gg-add-r::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+  border-radius: 5px;
+  top: 8px;
+  left: 4px;
+}
+.gg-add-r::after {
+  width: 2px;
+  height: 10px;
+  top: 4px;
+  left: 8px;
+} */
+
+.s {
+  text-decoration: line-through;
+  color: rgb(97, 97, 97);
+}
+
+.app-div {
+  background: rgb(243, 243, 243);
+  padding: 0px;
+  border-radius: 5px;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  margin: 100px auto;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+}
+
+body {
+  /* background: linear-gradient(90deg, #09bce3 0%, #71eded 50%, #4ff6c4 100%); */
+}
